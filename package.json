@@ -1,0 +1,33 @@
+{
+    "name": "contact_service",
+    "version": "1.0.0",
+    "description": "Managing contact details",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Jhamm1/contact_service.git"
+    },
+    "author": "DrJay",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Jhamm1/contact_service/issues"
+    },
+    "homepage": "https://github.com/Jhamm1/contact_service#readme",
+    "dependencies": {
+        "Express": "^3.0.1",
+        "amqplib": "^0.5.3",
+        "body-parser": "^1.18.3",
+        "express": "^4.16.4",
+        "express-cache-controller": "^1.1.0",
+        "mongoose": "^5.4.17",
+        "opn": "^5.4.0",
+        "request": "^2.88.0",
+        "rest-facade": "^1.10.1",
+        "swagger-ui-express": "^4.0.2",
+        "validator": "^10.11.0"
+    }
+}
